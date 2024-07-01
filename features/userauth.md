@@ -1,7 +1,8 @@
 ---
 title: User Authentication and Profile
 layout: home
-parent: Features
+parent: Client Side Application
+grand_parent: Features
 ---
 # User Authentication and Profile
 
