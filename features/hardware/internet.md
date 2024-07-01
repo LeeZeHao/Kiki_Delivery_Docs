@@ -1,10 +1,10 @@
 ---
-title: Internet connectivity
+title: Internet Connectivity
 layout: home
 parent: Hardware
 grand_parent: Features
 ---
-# Internet connectivity
+# Internet Connectivity
 
 ### Proposed
 
