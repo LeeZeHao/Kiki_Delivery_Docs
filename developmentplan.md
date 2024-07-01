@@ -6,11 +6,11 @@ nav_order: 7
 # Timeline and Development Plan
 
 <p align="center">
-<img src="" border="10"/>  
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/81606c97-1dd8-4500-a812-7c7113e4ee47" border="10"/>  
 </p>
 
 <p align="center">
-<img src="" border="10"/>  
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/04af4327-8f99-40ed-b267-99f371a935ba" border="10"/>  
 </p>
 
 ----
