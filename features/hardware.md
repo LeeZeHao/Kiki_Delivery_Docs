@@ -1,6 +1,7 @@
 ---
 title: Hardware
 layout: home
+has_children: true
 parent: Features
 ---
 # Hardware
