@@ -11,7 +11,7 @@ This is the documentation for Kiki's Delivery project (part of Orbital 2024).
 Kiki’s Delivery
 
 # Team Members
-Lee Ze Hao
+Lee Ze Hao  
 Gan Ren Yick
 
 # Level of Achievement
