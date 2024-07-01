@@ -5,16 +5,16 @@ nav_order: 1
 ---
 
 # Introduction
-This is the documentation for Kiki's Delivery project (part of Orbital 2024).
+This is the documentation for Kiki's Delivery project (part of Orbital 2024).  
 
-### Team Name
+# Team Name
 Kiki’s Delivery
 
-### Team Members
+# Team Members
 Lee Ze Hao
 Gan Ren Yick
 
-### Level of Achievement
+# Level of Achievement
 Apollo 11 (proposed Artemis)
 
 # Milestone 2 Public Testing Notice
