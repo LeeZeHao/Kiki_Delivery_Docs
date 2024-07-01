@@ -18,6 +18,16 @@ This is a hybrid hardware/software project with significant complexity. Due to b
 Software system overview
 </p>
 
+These different programs operate separately and only communicate between each other when needed. For instance, the client app links to a URL where the drone control interface is hosted, and the drone end WebRTC control app communicates with the Python script using WebSocket.  
+  
+This ensures that:  
+1. The different programs can be easily split up to be developed and maintained by different people.  
+2. The scope of each separate program is manageable and less complex, speeding up development.  
+3. It is much easier to pinpoint any errors that occur.
+  
+Aside from that, there are also examples of modularization within each of the separate programs. For instance, each screen in React Native is largely self contained.
+
+
 ----
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
