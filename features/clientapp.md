@@ -2,6 +2,7 @@
 title: Client Side Application
 layout: home
 parent: Features
+has_children: true
 ---
 # Client Side Application
 
