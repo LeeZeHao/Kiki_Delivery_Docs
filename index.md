@@ -3,11 +3,26 @@ title: Home
 layout: home
 ---
 
-Added to test
+### Team Name
+Kiki’s Delivery
 
-This is a *bare-minimum* template to create a Jekyll site that uses the [Just the Docs] theme. You can easily set the created site to be published on [GitHub Pages] – the [README] file explains how to do that, along with other details.
+### Level of Achievement
+Apollo 11 (proposed Artemis)
 
-If [Jekyll] is installed on your computer, you can also build and preview the created site *locally*. This lets you test changes before committing them, and avoids waiting for GitHub Pages.[^1] And you will be able to deploy your local build to a different platform than GitHub Pages.
+# Milestone 2 Public Testing Notice
+There will be a limited time public testing for the project.
+Due to the project’s reliance on physical hardware, testing slots are limited. 
+For more information, please contact @zehaolee or @Neng_1 on Telegram before 7 July.
+
+
+# Motivation
+Our motivation is to create a simple FPV (First Person View) ground drone rental service, catering to both individuals and commercial entities seeking short-term use of ground drones.
+Individuals or commercial entities may require remote drones for purposes such as surveying, supervision, patrols, etc.  However, remote drone systems can be expensive. At the same time, setting up drone systems eats into project time, manpower and technical resources.
+Therefore, We seek to offer a drone rental service that is both affordable and easy to get started with. In this way, we eliminate the need for purchase and setup of an entire drone system, which may be prohibitively expensive or technically infeasible, especially for short-term uses or small projects.
+
+# Vision
+Kiki's Delivery will be a FPV (First Person View) ground drone rental service which includes features such as worldwide drone control via internet, video, audio, and text communication between drone and client, and a wide variety of drones to satisfy users with various use cases.
+Kiki's Delivery will be favored by entities or people who need access to a drone on short notice or for only a short amount of time. Clients for professional use will include project managers, supervisors, business owners. However, there will also be clients for personal use, including people who need it for personal projects, disabled or bedridden people, or people who wish to use it for simple purposes such as shopping.
 
 More specifically, the created site:
 
