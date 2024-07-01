@@ -25,14 +25,14 @@ Lee Ze Hao
 Gan Ren Yick
 
 # Level of Achievement
-Apollo 11 (proposed Artemis)
-
-# Milestone 2 Public Testing Notice
+Apollo 11 (proposed Artemis)  
+  
+# Milestone 2 Public Testing
 There will be a limited time public testing for the project.  
 Due to the project’s reliance on physical hardware, testing slots are limited.   
 For more information, please contact @zehaolee or @Neng_1 on Telegram before 7 July.
-
-
+  
+  
 # Motivation
 Our motivation is to create a simple FPV (First Person View) ground drone rental service, catering to both individuals and commercial entities seeking short-term use of ground drones.  
 Individuals or commercial entities may require remote drones for purposes such as surveying, supervision, patrols, etc.  However, remote drone systems can be expensive. At the same time, setting up drone systems eats into project time, manpower and technical resources.  
