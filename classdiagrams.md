@@ -21,7 +21,7 @@ nav_order: 7
 
 ## Drone Side Python Script
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/d386d32d-9bd4-42e7-aab6-6cf45412ceda)" border="5"/>  
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/d386d32d-9bd4-42e7-aab6-6cf45412ceda" border="5"/>  
 </p>
 
 ----
