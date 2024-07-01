@@ -1,6 +1,7 @@
 ---
 title: Locomotion
 layout: home
+parent: Hardware
 ---
 # Locomotion
 
