@@ -2,7 +2,7 @@
 title: Home Screen
 layout: home
 parent: Client Side Application
-grandparent: Features
+grand_parent: Features
 ---
 # Home Screen
 
