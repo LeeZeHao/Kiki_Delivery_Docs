@@ -19,7 +19,7 @@ During this access, the user will be able to control the robot, and have two-way
 
 
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/8095dcb4-dc11-45aa-81d6-e06b1176d6fc" width="100" height="100" border="10"/>  
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/8095dcb4-dc11-45aa-81d6-e06b1176d6fc" border="10"/>  
 Basic system overview
 </p>
 
