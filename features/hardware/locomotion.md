@@ -2,6 +2,7 @@
 title: Locomotion
 layout: home
 parent: Hardware
+grand_parent: Features
 ---
 # Locomotion
 
