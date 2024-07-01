@@ -18,6 +18,12 @@ After that, users may request to rent a drone. The user can then proceed to the 
 During this access, the user will be able to control the robot, and have two-way visual and audio communication via the robot (similar to a video call). Drone usage time is decreased during this period. If the user’s drone usage time runs out, they will first receive a warning, then their access will be cut off. The user may also stop their access before then.  
 
 
+<p align="center">
+![Screenshot 2024-06-30 202915](https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/8095dcb4-dc11-45aa-81d6-e06b1176d6fc)  
+Basic system overview
+</p>
+
+
 
 ----
 
