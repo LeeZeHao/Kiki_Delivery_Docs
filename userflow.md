@@ -1,8 +1,7 @@
 ---
 title: User and Staff Flow
 layout: home
-has_children: true
-parent: Features
+nav_order: 6
 ---
 # User and Staff Flow
 ## User Flow  
