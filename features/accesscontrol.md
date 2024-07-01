@@ -1,8 +1,8 @@
 ---
 title: Access Control System
 layout: home
-has_children: true
-parent: Features
+parent: Client Control Interface
+grand_parent: Features
 ---
 # Access Control System
 
