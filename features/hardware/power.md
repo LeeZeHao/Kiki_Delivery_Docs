@@ -28,7 +28,10 @@ Capacity: 9800mAh
 Current build of the drone. The battery (blue block) is visible. We have not yet designed a proper mount for the battery, but it is working in this state.
 </p>
 
-
+<p align="center">
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/cf489534-8fde-4b62-b2b5-ea556ac219c0" border="10"/>
+Future planned arrangement of drone internals. Battery is fit in the middle, while Raspberry Pi 5 is fit at the front for optimal cooling.
+</p>
 
 ----
 
