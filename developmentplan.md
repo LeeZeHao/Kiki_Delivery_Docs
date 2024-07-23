@@ -33,6 +33,19 @@ nav_order: 7
 |    8    |                   Full basic user flow                  |          Ensure the ability of a user to complete the user flow, as described in the README         |  Gan Ren Yick Lee Ze Hao |   June 20~28, 2024   |
 |         |               **Evaluation Milestone 2:**               | -First Working Prototype                                                                            |                          |     July 1, 2024     |
 
+
+### Milestone 3
+| **S/N** |               **Tasks**              |                                   **Description**                                  |      **In-Charge**      |     **Date**     |
+|:-------:|:------------------------------------:|:----------------------------------------------------------------------------------:|:-----------------------:|:----------------:|
+|    1    |        Develop movable camera        |                   Addition of camera that can be rotated by user                   | Gan Ren Yick Lee Ze Hao | July 10~20, 2024 |
+|    2    | Ensure user flow is smooth and debug |  Ensure theres no situation left out being considered and improve user experience  | Gan Ren Yick Lee Ze Hao | July 15~25, 2024 |
+|    3    |      Optimize data transmission      |      Minimize probability of drone losing control due to bugs or Internet lag      |       Gan Ren Yick      | July 18~25, 2024 |
+|    4    |         Finishing the product        |                    Rearrange certain parts and finish the drone                    | Gan Ren Yick Lee Ze Hao | July 20~25, 2024 |
+|    5    |             Documentation            |                       Detailed documentation of existing code                      |        Lee Ze Hao       | July 20~29, 2024 |
+|    6    |         Full basic user flow         | Ensure the ability of a user to complete the user flow, as described in the README | Gan Ren Yick Lee Ze Hao | July 20~28, 2024 |
+|         |      **Evaluation Milestone 3:**     |                                                                                    |                         |   July 29, 2024  |
+
+
 ----
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
