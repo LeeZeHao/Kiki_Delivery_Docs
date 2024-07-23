@@ -18,9 +18,20 @@ nav_order: 7
 |    7   |        Drone simple movement control       | Able to utilise the data received to control drone movement                                |       Gan Ren Yick       |  June 1~3, 2024 |
 |        |         **Evaluation Milestone 1:**        | -Ideation  -Proof of Concept                                                               |                          |   June 3, 2024  |
 
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/04af4327-8f99-40ed-b267-99f371a935ba" border="10"/>  
-</p>
+
+### Milestone 2
+
+| **S/N** |                        **Tasks**                        |                                           **Description**                                           |       **In-Charge**      |       **Date**       |
+|:-------:|:-------------------------------------------------------:|:---------------------------------------------------------------------------------------------------:|:------------------------:|:--------------------:|
+|    1    |                Improvement of home screen               |                   Continued development of home screen as more features are added                   |        Lee Ze Hao        |    June 4~8, 2024    |
+|    2    | Design and implementation of user access control system | Backend implementation with Firebase + Frontend client app modification to support the new features | Gan Ren Yick, Lee Ze Hao |    June 4~12, 2024   |
+|    3    |                Building  the drone frame                |                                Design, cad and print the drone frame                                | Gan Ren Yick, Lee Ze Hao |    June 8~15, 2024   |
+|    4    |                 Improving drone hardware                |          Adding battery, camera, speaker etc to the drone so that it can move independently         | Gan Ren Yick, Lee Ze Hao |   June 10~20, 2024   |
+|    5    |               Build scissor lift hardware               |                   Design, cad and print the features of drone such as scissor lift                  | Gan Ren Yick, Lee Ze Hao |   June 18~23, 2024   |
+|    6    |          Integrate lift features into software          |                         Write the code to allow users to access the feature                         |       Gan Ren Yick       |   June 23~25, 2024   |
+|    7    |                      Documentation                      |                               Detailed documentation of existing code                               |        Lee Ze Hao        | June 25~July 1, 2024 |
+|    8    |                   Full basic user flow                  |          Ensure the ability of a user to complete the user flow, as described in the README         |  Gan Ren Yick Lee Ze Hao |   June 20~28, 2024   |
+|         |               **Evaluation Milestone 2:**               | -First Working Prototype                                                                            |                          |     July 1, 2024     |
 
 ----
 
