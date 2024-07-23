@@ -7,7 +7,7 @@ nav_order: 7
 
 ### Milestone 1
 
-| **MS** |                  **Tasks**                 |                                       **Description**                                      |       **In-Charge**      |     **Date**    |
+| **S/N** |                  **Tasks**                 |                                       **Description**                                      |       **In-Charge**      |     **Date**    |
 |:------:|:------------------------------------------:|:------------------------------------------------------------------------------------------:|:------------------------:|:---------------:|
 |    1   | Familiarization with required technologies | Pick up knowledge of all the technologies needed                                           | Gan Ren Yick, Lee Ze Hao | May 21~23, 2024 |
 |    2   |               WebRTC protocol              | Establish connection between Raspberry pi web app and user device using WebRTC protocol    |       Gan Ren Yick       | May 24~26, 2024 |
