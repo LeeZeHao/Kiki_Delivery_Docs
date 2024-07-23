@@ -35,6 +35,7 @@ nav_order: 7
 
 
 ### Milestone 3
+
 | **S/N** |               **Tasks**              |                                   **Description**                                  |      **In-Charge**      |     **Date**     |
 |:-------:|:------------------------------------:|:----------------------------------------------------------------------------------:|:-----------------------:|:----------------:|
 |    1    |        Develop movable camera        |                   Addition of camera that can be rotated by user                   | Gan Ren Yick Lee Ze Hao | July 10~20, 2024 |
