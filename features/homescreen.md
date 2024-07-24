@@ -9,12 +9,12 @@ grand_parent: Features
 A simple main menu page where users can check basic information, and perform functions such as purchasing more drone usage time and accessing the drone control interface.   
   
 Currently, the home screen displays the user’s email and username, and their remaining drone usage time (detailed further below in “Drone usage timer system” feature). As mentioned above, this data is stored using Firebase Firestore.  
+ \
+Users can access the user profile, and log out from this screen.  
   
-Users can access their user profile, and log out from this screen.  
+Users can use the "Purchase Time" button to purchase drone usage time (currently not attached to any payment system, due to limitations in registering a payment service for a prototype).   
   
-In terms of drone functions, users can purchase drone usage time (currently not attached to any payment system, due to limitations in registering a payment service for a prototype).   
-  
-Users can also press a button to access a drone, which redirects them to the drone control interface. As detailed in the “(Control Interface) Access control system” feature below, for security and authentication purposes, this is the only way users are allowed to access the drone control interface.  
+Users can also press the "Access Drone" button to access a drone, which redirects them to the drone control interface. As detailed in the “(Control Interface) Access control system” feature below, for security and authentication purposes, this is the only way users are allowed to access the drone control interface.  
   
   
 
