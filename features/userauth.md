@@ -6,14 +6,9 @@ grand_parent: Features
 ---
 # User Authentication and Profile
 
-### Proposed
-
-Users are able to create an account and login to the client side application. User profile and information is stored in a cloud database.  
+Users are able to create an account and login to the client side application. Currently, user authentication is implemented via Firebase Authentication, while user data is stored using Firebase Firestore database.
   
-
-### Current Progress
-
-User authentication is implemented via Firebase Authentication. Users can use their email to create an account. 
+Users can use their email to create an account. 
 
 <p align="center">
 <img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/3d911dd0-ed83-4ccb-9375-97b6827cbe04" border="10"/>  
