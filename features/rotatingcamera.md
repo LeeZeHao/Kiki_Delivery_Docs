@@ -8,9 +8,9 @@ parent: Features
 The rotating camera mount allows the user to rotate the camera across an arc. This allows the user to rotate the camera view, allowing for better situational awareness and visual capabilities than a fixed camera.  
 
 This is achieved via two servo motors, which rotate different parts of the camera housing.  
-
-<p align="center">  
-![image](https://github.com/user-attachments/assets/c36c8585-dcb1-4d7e-b622-c5144273ea22)  
+  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c36c8585-dcb1-4d7e-b622-c5144273ea22" border="10"/>  
 </p>
 <p align="center">
 3D model of the camera mount in Fusion 360.  
