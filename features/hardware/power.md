@@ -6,16 +6,11 @@ grand_parent: Features
 ---
 # Power System
 
-### Proposed
-
 A battery that can support all systems on the robot.   
   
-The battery should be rechargeable, and able to handle the large power draw of the motors while still maintaining stable power to the Raspberry Pi controller. 
-
-
-### Current Progress
-
-A purchased rechargeable lithium ion battery is being used. It is able to reliably fulfill the requirements stated above.  
+The battery is rechargeable, and able to handle the large power draw of the motors while still maintaining stable power to the Raspberry Pi controller. 
+  
+A purchased rechargeable lithium ion battery is being used. It is able to reliably fulfill the requirements stated above, while still maintaining a reasonable battery life and charging time.
   
 The specifications of the current battery are as follows:  
 Voltage: 12V   
