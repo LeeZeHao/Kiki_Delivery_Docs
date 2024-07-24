@@ -6,6 +6,13 @@ parent: Features
 ---
 # Client Control Interface
 
+<p align="center">
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/3fbd7993-ba8d-474f-8040-68dbf090e067" border="10"/>  
+</p>
+
+![image](https://github.com/user-attachments/assets/c0567c48-b978-433a-891f-3733b2b6869c)
+
+
 The control page is the user interface for connecting to the robot and controlling it.  
   
 Users in the control page can  
