@@ -6,8 +6,6 @@ parent: Features
 ---
 # Client Control Interface
 
-### Proposed
-
 The control page is the user interface for connecting to the robot and controlling it.  
   
 Users in the control page can  
@@ -20,9 +18,7 @@ Users in the control page can
 - View drone usage time left  
 - Control extra functions such as camera rotation and other actuators using action buttons on the bottom right side of the screen  
 - Disconnect the drone (This will also stop the consumption of drone usage time (detailed under “Drone usage timer system” section))
-
-### Current Progress
-
+  
 Currently, users in the control page can:  
 - Establish connection to the drone  
 - Observe their own camera view on top right corner  
