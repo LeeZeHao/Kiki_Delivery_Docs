@@ -33,8 +33,10 @@ The WebRTC connection is currently handled by two web apps (one as the user’s 
 During our work, we have realized that a connection can be established using STUN server only if both devices’ firewalls are turned off (for instance, when both devices are on the same LAN). TURN server must be used if firewall is enabled (for instance, over the internet).  
   
 In this way, a drone system that can be remotely controlled over the Internet is set up.  
+
+
   
-The implemented drone control features are detailed under the “Client Control Interface” section.
+The currently implemented drone control features are detailed under the “Client Control Interface” section.
 
 
 ----
