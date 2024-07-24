@@ -6,15 +6,10 @@ has_children: true
 ---
 # Client Side Application
 
-### Proposed
-
 A client (user) side application, which gives users access to all other implemented features.  
   
 The application is available on Web and Android platforms.  
   
-
-### Current Progress
-
 Currently, the client-side application is implemented via React Native, with web support achieved via the React Native Web plugin.  
   
 Several other plugins are also in use to achieve various functionality, such as React Navigation for navigating between different screens of the app, and the Firebase plugin for Firebase functions.  
