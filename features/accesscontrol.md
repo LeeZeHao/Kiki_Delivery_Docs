@@ -6,18 +6,12 @@ grand_parent: Features
 ---
 # Access Control System
 
-### Proposed
-
 The access control system for the control interface is used to ensure users can only access the drone with proper permissions (by opening the interface through the client app), and to identify the user which is controlling the drone.  
   
 The access codes are generated automatically, and stored in the backend database (Firebase Firestore). Each time the user accesses the drone, the access code (along with extra information to identify the user) is passed to the control interface web page. At the same time, the access code is immediately changed at the backend.  
   
 This results in a system that is secure, and doesn't require extra user input.  
   
-The current implementation and further explanations are detailed below.  
-
-### Current Progress
-
 The current timeline of how the system works is split into 3 parts:  
 
 ##### Drone system startup
