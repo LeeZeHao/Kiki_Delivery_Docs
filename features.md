@@ -6,11 +6,9 @@ has_children: true
 ---
 
 # Features
-The following detailed description of features will have two sections each:  
-##### Proposed
-The desired final state of the feature.  
-##### Current Progress
-Features, or progress on features that have been implemented by Milestone 2.  
+The following is a detailed description of currently implemented features in this project. \
+ \
+In this documentation, features are split into several sections. Viewers can use the sidebar to navigate them more easily.
 
 ----
 
