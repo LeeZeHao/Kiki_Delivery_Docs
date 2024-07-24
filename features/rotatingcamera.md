@@ -9,7 +9,7 @@ The rotating camera mount allows the user to rotate the camera across an arc. Th
 
 This is achieved via two servo motors, which rotate different parts of the camera housing.  
 
-<p align="center">
+<p align="center">  
 ![image](https://github.com/user-attachments/assets/c36c8585-dcb1-4d7e-b622-c5144273ea22)  
 </p>
 <p align="center">
