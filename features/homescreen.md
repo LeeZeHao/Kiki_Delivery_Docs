@@ -6,13 +6,8 @@ grand_parent: Features
 ---
 # Home Screen
 
-### Proposed
-
 A simple main menu page where users can check basic information, and perform functions such as purchasing more drone usage time and accessing the drone control interface.   
   
-
-### Current Progress
-
 Currently, the home screen displays the user’s email and username, and their remaining drone usage time (detailed further below in “Drone usage timer system” feature). As mentioned above, this data is stored using Firebase Firestore.  
   
 Users can access their user profile, and log out from this screen.  
