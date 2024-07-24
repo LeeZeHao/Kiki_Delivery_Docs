@@ -6,22 +6,26 @@ grand_parent: Features
 ---
 # Drone Frame
 
-The frame of the drone holds all other electrical and electronic components in place. It is made of custom 3D printed parts and an acrylic plate bottom chassis.  
+The frame of the drone holds all other electrical and electronic components in place.  
+
+It is made of custom 3D printed parts and an acrylic plate bottom chassis. The 3D printed parts were modelled in Autodesk Fusion 360 and printed using Creality Ender 3 printers, while the acrylic plate chassis was purchased along with the motors.  
   
 The frame can be divided roughly into two sections: the top frame and the bottom frame. There is a scissor lift between the top and bottom part, allowing for the top half to be lifted. (see: Features -> Scissor Lift section)  
 
 # Bottom Part
 
-The bottom part consists of a 3D printed frame on top of an acryllic chassis.  
+The bottom part consists of a 3D printed frame on top of an acrylic chassis.  
   
 <p align="center">
 <img src="https://github.com/user-attachments/assets/d49dd713-1bca-49e8-a1be-1efb769ad2d6" border="10"/>  
 </p>
 <p align="center">
-The drone taken apart. The two acryllic plates of the chassis (brown) are visible. The 3D printed frame (white) is fixed to the top plate of the chassis.
+The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
 </p>
 
-The chassis provides mounting points for the 4 DC motors that provide locomotion. The 
+The chassis is made of two acryllic plates, and provides mounting points for the 4 DC motors that provide locomotion. Motor drivers used for the locomotion motors also fit in this space.
+  
+The 3D printed frame is fixed to the top plate of the chassis. It provides mounting points for the Raspberry Pi 5 microcomputer, the battery, and the 
 
 
 
