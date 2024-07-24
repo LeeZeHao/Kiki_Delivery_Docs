@@ -4,18 +4,13 @@ layout: home
 parent: Hardware
 grand_parent: Features
 ---
-# Locomotion
-
-### Proposed
-
-A set of actuators that facilitate easy implementation of ground-based movement.  
+# Locomotion  
   
-We have decided to opt for ground-based movement rather than aerial drones as this would significantly increase risk and project difficulty, and aerial drones cannot operate outside of line-of-sight in Singapore.
-
-
-### Current Progress
-
-Currently, the drone has a 4-wheeled chassis, where each wheel is powered by a 12V DC motor. The system is controlled by the Raspberry Pi 5 controller via two l298n motor drivers (one per each side).  
+We have decided to opt for ground-based movement rather than aerial drones as this would significantly increase risk and project difficulty, and aerial drones cannot operate outside of line-of-sight in Singapore.  
+  
+Thus, a set of actuators that facilitate easy implementation of ground-based movement is installed.  
+    
+Currently, the drone uses a 4-wheeled chassis, where each wheel is powered by a 12V DC motor. The system is controlled by the Raspberry Pi 5 controller via two l298n motor drivers (one per each side).  
   
 This system has proven to be easy to implement, and has shown good mobility during testing.   
   
