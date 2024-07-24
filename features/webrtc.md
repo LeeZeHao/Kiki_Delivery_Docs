@@ -5,8 +5,6 @@ parent: Features
 ---
 # WebRTC System
 
-### Proposed
-
 WebRTC is a free and open-source project which provides a simpler way to implement real-time peer-to-peer communication (video, audio and data).  
 
 A simple explanation of how a typical WebRTC connection works is as follows:  
@@ -30,15 +28,13 @@ Finally, media streams and data channels can be created and transmitted directly
 
 In this project, the real-time video and audio communication aspects of WebRTC are used to implement a two-way video chat between the client (user) interface and the drone, while the data transfer aspect is used to send control signals from the user to the drone.  
   
-In this way, a drone system that can be remotely controlled over the Internet is set up.  
-
-### Current Progress
-
 The WebRTC connection is currently handled by two web apps (one as the user’s control interface, one on the robot’s end). For compatibility reasons, the web apps are coded using Javascript without any specific framework.  
   
 During our work, we have realized that a connection can be established using STUN server only if both devices’ firewalls are turned off (for instance, when both devices are on the same LAN). TURN server must be used if firewall is enabled (for instance, over the internet).  
   
-The currently implemented features using WebRTC are detailed under the “Client Control Interface” section.
+In this way, a drone system that can be remotely controlled over the Internet is set up.  
+  
+The implemented drone control features are detailed under the “Client Control Interface” section.
 
 
 ----
