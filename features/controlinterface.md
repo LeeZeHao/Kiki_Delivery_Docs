@@ -6,14 +6,19 @@ parent: Features
 ---
 # Client Control Interface
 
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/3fbd7993-ba8d-474f-8040-68dbf090e067" border="10"/>  
-</p>
+The control page is the user interface for connecting to the robot and controlling it. The access control system (detailed in its own section) ensures it can only be opened through the client app.  
 
+Once it is opened, users will see this screen.
+  
 ![image](https://github.com/user-attachments/assets/c0567c48-b978-433a-891f-3733b2b6869c)
 
+The control interface is not yet connected to the drone. At this stage, the user cannot control the drone, and the user's drone usage time will not decrease.
 
-The control page is the user interface for connecting to the robot and controlling it.  
+The user can see their own webcam view in the top right corner of the screen.
+
+Users can then use the "Connect to Drone" button (Green button) to attempt a connection. After a successful connection, the user will be able to see the drone's camera view.
+
+
   
 Users in the control page can  
 - Establish connection to the drone (access code system below not implemented yet)  
