@@ -6,13 +6,11 @@ grand_parent: Features
 ---
 # Internet Connectivity
 
-### Proposed
+A wireless method for the drone to connect to the internet is essential for its functions.  
 
-A wireless method for the drone to connect to the internet. Must be supported by Raspberry Pi 5 and able to provide suitable internet specs to support WebRTC video calls.  
-
-### Current Progress
-
-A SIM7600 Raspberry Pi HAT module is used to provide 4G internet connectivity. During testing, it has proven sufficient for smooth operation and video / audio feed.  
+A SIM7600 Raspberry Pi HAT module is used to provide 4G internet connectivity. It is supported by Raspberry Pi 5 and able to provide suitable internet specs to support WebRTC video calls.  
+  
+During testing, it has proven sufficient for smooth operation and video / audio feed.  
   
 
 ----
