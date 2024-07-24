@@ -6,17 +6,11 @@ grand_parent: Features
 ---
 # Video and Audio
 
-### Proposed
-
-Microphone and camera hardware so that the drone can record video and audio to send to the user. Speaker so that audio from the user end can be played.  
+Microphone and camera hardware is installed so that the drone can record video and audio to send to the user. Speaker is installed so that audio from the user end can be played.  
   
-Hardware must be compatible with Raspberry Pi 5.
-
-### Current Progress
-
-A USB mic and a USB webcam provide video and audio recording capability. Both of these functions work as expected. However, the field of view (FOV) of the webcam is quite low, and we are planning to improve this hardware in the future.  
+A USB webcam (with integrated mic) provide video and audio recording capability. Both of these functions work as expected. The field of view is greatly increased from the last version, significantly improving the experience of the user controlling the drone.  
   
-A speaker is also available for playing audio from the user. Along with the microphone, the system in its current state can already provide two-way audio communication.
+A USB speaker is also available for playing audio from the user. Along with the microphone, the system in its current state can thus provide two-way audio communication.
 
 
   
