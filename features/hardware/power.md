@@ -17,6 +17,11 @@ Voltage: 12V
 Max current: 3A  
 Capacity: 9800mAh  
 
+During testing with the current setup, we have found that the expected operational time per charge is  2.5 hours.
+The time required to charge the battery from empty is approximately 8 hours.
+
+While we recognize that better battery technology options exist, these specifications are sufficient for this stage of development and testing.
+
   
 <p align="center">
 <img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/dd233bf2-e2da-43f3-8d02-1321b5165832" border="10"/>  
