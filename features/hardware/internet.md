@@ -12,8 +12,8 @@ A SIM7600 Raspberry Pi HAT module is used to provide 4G internet connectivity. I
   
 During testing, it has proven sufficient for smooth operation and video / audio feed.  
     
-<p align="center"> 
-![image](https://github.com/user-attachments/assets/de4d73aa-ffe8-484b-a412-891f2ce06b1f)
+<p align="center">
+<img src="https://github.com/user-attachments/assets/de4d73aa-ffe8-484b-a412-891f2ce06b1f" border="10"/>  
 </p>
 <p align="center">
 The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
