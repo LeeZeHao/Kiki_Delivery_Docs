@@ -29,18 +29,9 @@ This system ensures the control interface can only be opened from the client app
    
 A more detailed, step-by-step explanation of this system is provided in the [Access Control System](https://leezehao.github.io/Kiki_Delivery_Docs/features/accesscontrol.html) feature page.  
   
-### Drone Controls
-
-
-
-
-
-Users can then use the "Connect to Drone" button (Green button) to attempt a connection. After a successful connection, the user will be able to see the drone's camera view.
-
-
+### Main Control Interface
   
 Users in the control page can  
-- Establish connection to the drone (access code system below not implemented yet)  
 - Observe their own camera view on top right corner  
 - Observe the drone’s camera view in middle of screen  
 - Input text to be sent and displayed on the drone  
