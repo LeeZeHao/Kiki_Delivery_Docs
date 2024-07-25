@@ -33,12 +33,12 @@ A more detailed, step-by-step explanation of this system is provided in the [Acc
 
 After connecting to the drone, users will begin receiving audio and video feed from the drone. The user's audio feed will also be sent to the drone.  
 
-The functions users can perform in this page are listed below:
+The functions users can perform are listed below:
 
-##### 
+##### Two-way Audio Communication
+
 
 Users in the control page can  
-- Observe their own camera view on top right corner  
 - Observe the drone’s camera view in middle of screen  
 - Input text to be sent and displayed on the drone  
 - Control the movement of drone using a virtual joystick on the bottom left side of the screen  
