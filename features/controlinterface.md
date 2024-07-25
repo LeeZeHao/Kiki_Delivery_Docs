@@ -6,7 +6,16 @@ parent: Features
 ---
 # Client Control Interface
 
-The control page is the user interface for connecting to the robot and controlling it. The access control system (detailed in its own section) ensures it can only be opened through the client app.  
+The control page is the user interface for connecting to the robot and controlling it.  
+
+### Automatic Authentication / Access Control
+  
+The control interface can only be opened through the client app. When the user is redirected from the client app, it passes the user email and an access key (obtained from Firestore) to the control interface via URL arguments. Authentication of the user is done by using a Firestore query (to the "user_data" collection) to search registered users by the provided email to verify that the user exists + get the user id of the user.  
+  
+At the same time, the provided access key is checked against the key in Firestore (under "access_code" collection). The access key changes each time it is queried, so the user cannot enter it into the URL themselves. This ensures the control interface can only be opened from the client app and not through other methods (for instance, the user typing the URL into a browser themselves). This system is such that users can be identified easily, and that they cannot exploit possible loopholes (for example, opening the control interface while passing others' email as an argument).
+
+
+
 
 Once it is opened, users will see this screen.
   
