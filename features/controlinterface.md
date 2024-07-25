@@ -21,7 +21,7 @@ Once it is opened, users will see this screen.
 The control interface on startup.
 </p>
 
-The control interface is not yet connected to the drone. At this stage, the user cannot control the drone, and the user's drone usage time will not decrease. Users must use the "Connect to Drone" button (green) to start a connection.
+At this stage, the control interface is not yet connected to the drone. The user cannot control the drone, and the user's drone usage time will not decrease. Users must use the "Connect to Drone" button (green) to start a connection.
   
 When the user tries to connect to a drone, authentication of the user is done by using a Firestore query (to the "user_data" collection) to search registered users by the provided email to verify that the user exists + get the user id of the user. The provided access key is also checked against the key in Firestore (under "access_code" collection). The access key changes each time it is queried, so the user cannot enter it into the URL themselves. If this step fails, the user cannot connect to a drone.   
   
@@ -30,7 +30,13 @@ This system ensures the control interface can only be opened from the client app
 A more detailed, step-by-step explanation of this system is provided in the [Access Control System](https://leezehao.github.io/Kiki_Delivery_Docs/features/accesscontrol.html) feature page.  
   
 ### Main Control Interface
-  
+
+After connecting to the drone, users will begin receiving audio and video feed from the drone. The user's audio feed will also be sent to the drone.  
+
+The functions users can perform in this page are listed below:
+
+##### 
+
 Users in the control page can  
 - Observe their own camera view on top right corner  
 - Observe the drone’s camera view in middle of screen  
