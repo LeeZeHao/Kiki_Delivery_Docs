@@ -31,7 +31,11 @@ The motor and bottom struts for the scissor lift are also mounted here.
 
 ### Top Part
 
-
+The top half of the frame is attached to the top of the scissor lift. This allows anything mounted or carried on it to be affected by the lift as well.  
+  
+The webcam (with integrated microphone) and the speaker are both mounted to the top part.  
+  
+There is also a box compartment in the middle, which provides some carrying capacity for the drone.  
 
 
 
