@@ -16,7 +16,7 @@ During testing, it has proven sufficient for smooth operation and video / audio 
 <img src="https://github.com/user-attachments/assets/de4d73aa-ffe8-484b-a412-891f2ce06b1f" border="10"/>  
 </p>
 <p align="center">
-The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
+SIM7600 Raspberry Pi HAT module.
 </p>
 
 ----
