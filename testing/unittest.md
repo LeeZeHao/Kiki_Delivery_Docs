@@ -7,7 +7,7 @@ parent: Testing
 
 Unit testing was done during development in order to verify the functionality of individual pieces of code. It has helped to identify issues easily and maintain bug-free code.  
 
-As of Milestone 2, features successfully completed and tested are as follows:  
+As of Milestone 3, features successfully completed and tested are as follows:  
   
 ##### Client App (All features work on both Web and Android platforms)
 1. Register with Firebase Authentication  
