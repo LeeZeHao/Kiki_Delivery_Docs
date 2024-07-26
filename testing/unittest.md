@@ -43,11 +43,19 @@ As of Milestone 3, features successfully completed and tested are as follows:
 1. Can establish WebSocket server for Drone side web app to connect to  
 2. Can receive control signals via WebSocket  
 3. Can control wheel motors via drivers through GPIO library reliably
-4. Can control both camera rotation servos through GPIO library reliably
+4. Can control both camera rotation servos (pitch and yaw) through GPIO library reliably
 5. Can control scissor lift motor via drivers through GPIO library reliably  
 6. Can use control signals to drive wheel motors (via system in point 3)   
 7. Can use control signals to rotate camera in two axis (via system in point 4)  
-8. Can use control signals to rotate scissor lift motor both directions (for lift raising and lowering) (via system in point 5)  
+8. Can use control signals to rotate scissor lift motor both directions (for lift raising and lowering) (via system in point 5)
+
+##### Hardware 
+1. Power supply to Raspberry Pi 5 is reliable
+2. Wheel motors and drivers work
+3. Both camera rotation servos (pitch and yaw) work
+4. Scissor lift motor via drivers work
+5. Testing battery charge time from empty, averages to 7.6 hours. Approximately matches with advertised charging time of 8 hours.
+6. Testing battery life from full under normal usage, averages to 2.4 hours.
 
 
 
