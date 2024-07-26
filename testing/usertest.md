@@ -28,10 +28,11 @@ Connection done over Internet
 | 9  | User view drone audio and video                                                 | User can receive audio and video from drone onboard webcam clearly. The video FOV is improved greatly from last milestone. Success | -                                                          |
 | 10 | Drone plays user audio                                                          | User audio can be clearly heard from the drone speaker. Success                                                                    | -                                                          |
 | 11 | Control drone movement                                                          | There is little lag in both movement and camera view. The control experience is satisfactory. Considered success                   | -                                                          |
-| 12 | Control drone camera rotation                                                   | Camera rotation servo motors could not work reliably. Failed.                                                                    | Fixed servo motor ground wiring.                           |
+| 12 | Control drone camera rotation                                                   | Camera rotation servo motors could not work reliably. Failed.                                                                      | Fixed servo motor ground wiring.                           |
 | 13 | Control drone scissor lift                                                      | Scissor lift was not able to be lifted properly by motor.                                                                          | Redesigned central screw shaft + used oil for lubrication. |
-| 14 | Timer system                                                                    | Remaining usage time by user displayed properly and updated in Firestore database. Success                                         | -                                                          |
-| 15 | Disconnect from drone                                                           | If disconnected from drone while moving, drone will keep repeating last instruction received. Not ideal, considered fail           | Fixed in drone Python script software.                     |
+| 14 | Usage time update                                                               | Remaining usage time by user displayed properly and updated in Firestore database. Success                                         | -                                                          |
+| 15 | Usage time runs out                                                             | If remaining usage time runs out, user is disconnected from drone. Success                                                         | -                                                          |
+| 16 | Disconnect from drone                                                           | If disconnected from drone while moving, drone will keep repeating last instruction received. Not ideal, considered fail           | Fixed in drone Python script software.                     |
 
 ##### Second User Test
 
@@ -54,8 +55,9 @@ Connection done over Internet
 | 11 | Control drone movement                                                          | There is little lag in both movement and camera view. The control experience is satisfactory. Considered success                   | -                                         |
 | 12 | Control drone camera rotation                                                   | Camera rotation servo motors work, but rotate a bit too fast. Considered success but could use improvement.                        | Adjusted speed of servo in Python script. |
 | 13 | Control drone scissor lift                                                      | Scissor lift raising and lowering can be controlled by user properly. Success                                                      | -                                         |
-| 14 | Timer system                                                                    | Remaining usage time by user displayed properly and updated in Firestore database. Success                                         | -                                         |
-| 15 | Disconnect from drone                                                           | If disconnected from drone, drone stops properly. Success                                                                          | -                                         |
+| 14 | Usage time update                                                               | Remaining usage time by user displayed properly and updated in Firestore database. Success                                         | -                                         |
+| 15 | Usage time runs out                                                             | If remaining usage time runs out, user is disconnected from drone. Success                                                         | -                                         |
+| 16 | Disconnect from drone                                                           | If disconnected from drone, drone stops properly. Success                                                                          | -                                         |
 
 ----
 
