@@ -17,8 +17,8 @@ As of Milestone 3, features successfully completed and tested are as follows:
 5. Cannot login without email verification  
 6. Create and store user data using Firebase Firestore  
 7. Retrieve data from Firebase Firestore for Home page  
-8. Change username in Firebase Firestore from Profile page  
-9. Open URL of Control page (with correct arguments taken from Firebase Firestore)
+8. Change username in Firebase Firestore from Profile page   
+9. Open URL of Control page (with correct arguments taken from Firebase Firestore)  
   
 ##### Control page  
 1. Joysticks render correctly  
