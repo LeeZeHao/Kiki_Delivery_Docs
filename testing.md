@@ -11,7 +11,7 @@ Due to the large number of different technologies used, and the complexity of ge
   
 Various types of testing which were performed are listed in the following sections.
 
-NOTE: All testing which involves the client app has been performed using both Web and Android platforms.
+NOTE: As we seek to support both platforms, all testing which involves the client app has been performed using both Web and Android devices.
 
 
 
