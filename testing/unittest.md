@@ -27,8 +27,8 @@ As of Milestone 3, features successfully completed and tested are as follows:
 4. Can get WebRTC connection information from Firebase Firestore + log its own  
 5. Can establish WebRTC connection to drone  
 6. Can send control signal via WebRTC data channel to drone  
-7. Can use URL arguments (email + access key) to authenticate user and verify access  
-8 .While open, will continuously decrease available usage time of user in Firebase Firestore  
+7. Can use URL arguments (email + access key) to authenticate user and verify access   
+8. While open, will continuously decrease available usage time of user in Firebase Firestore    
 
 ##### Drone side web app  
 1. Can use the mic and camera of the drone  
