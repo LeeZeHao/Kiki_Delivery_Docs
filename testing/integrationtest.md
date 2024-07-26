@@ -1,5 +1,5 @@
 ---
-title: Unit Testing
+title: Integration Testing
 layout: home
 parent: Testing
 ---
