@@ -5,17 +5,22 @@ parent: Testing
 ---
 # User Testing
   
-As in the system overview, our system consists of multiple programs. Although these programs are running separately, they have interactions that must work consistently for the system to function. Integration testing has therefore been a continual part of our development process.  
+Our system heavily relies on Internet connectivity for both the client app and the drone control aspects. 
   
-Interactions / Features tested are as follows:  
-1. Client app redirecting user to control interface URL (with correct arguments), opening it in new tab of a browser  
-2. WebRTC video and audio stream between control interface and drone can be established  
-3. WebRTC data stream from control interface to drone can be established  
-4. Control signals can be sent from control interface to drone via WebRTC data channel  
-5. Drone side web app can receive control signals from control interface via WebRTC data channel  
-6. Drone side web app can send control signals to Drone side Python script via WebSocket (local)  
-7. Drone side Python script can receive control signals from Drone side web app via WebSocket
+Results of user tests conducted are as follows:
 
+#### First User Test
+User location: Bukit Indah, Johor, Malaysia  
+Drone location: Taman Bukit Kempas, Johor, Malaysia  
+Connected over Internet
+
+##### Tests Completed
+Register + Login to client app: Success
+Home page info display: Success with little delay
+Profile page info display: Success with little delay
+Connection 
+
+##### First User Test
 
 ----
 
