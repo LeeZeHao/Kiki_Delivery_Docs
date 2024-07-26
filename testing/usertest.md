@@ -11,6 +11,10 @@ Results of user tests conducted are as follows:
 
 ##### First User Test  
 
+User Location: Taman Bukit Indah, Johor, Malaysia  
+Drone Location: Taman Bukit Kempas, Johor, Malaysia  
+Connection done over Internet  
+
 |    | **Test**                                                                        | **Result**                                                                                                                         | **Action Taken**                                           |
 |----|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------|
 | 1  | Register + Login to client app                                                  | Success                                                                                                                            | -                                                          |
@@ -30,6 +34,10 @@ Results of user tests conducted are as follows:
 | 15 | Disconnect from drone                                                           | If disconnected from drone while moving, drone will keep repeating last instruction received. Not ideal, considered fail           | Fixed in drone Python script software.                     |
 
 ##### Second User Test
+
+User Location: Singapore  
+Drone Location: Taman Bukit Kempas, Johor, Malaysia  
+Connection done over Internet  
 
 |    | **Test**                                                                        | **Result**                                                                                                                         | **Action Taken**                          |
 |----|---------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
