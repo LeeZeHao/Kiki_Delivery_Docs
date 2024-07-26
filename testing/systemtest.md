@@ -6,6 +6,8 @@ parent: Testing
 # System Testing
   
 System testing was done to ensure our system functions correctly as a whole. In particular, we focused on the user flow, making sure that the user doesn’t encounter errors during use of our project.  
+
+All aspects listed below are tested over an Internet connection (not local network), under different conditions mimicking real ones. See "User Testing" section for more info.
   
 As of Milestone 3, interactions / Features tested with success are as follows:  
 1. User can register  
