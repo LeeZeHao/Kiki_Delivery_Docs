@@ -7,7 +7,7 @@ parent: Testing
   
 System testing was done to ensure our system functions correctly as a whole. In particular, we focused on the user flow, making sure that the user doesn’t encounter errors during use of our project.  
   
-Interactions / Features tested are as follows:  
+As of Milestone 3, interactions / Features tested with success are as follows:  
 1. User can register  
 2. User can receive verification email (and must verify email before being allowed to log in)  
 3. User can log in and log out  
@@ -19,8 +19,11 @@ Interactions / Features tested are as follows:
 9. User can see their own webcam view on control page  
 10. User can connect to drone on control page  
 11. User can see drone’s webcam view and hear audio from drone on control page  
-12. User can use bottom left joystick to control drone  
-13. User can control the drone reliably (without significant lag, input delay etc)  
+12. Audio from user is played by drone  
+13. User can control the drone movement reliably (without significant lag, input delay etc)   
+14. User can control the drone camera rotation reliably (without significant lag, input delay etc)  
+15. User can control the drone scissor lift reliably (without significant lag, input delay etc)  
+16. In case of bad internet connection or sudden disconnection learning to interruption of control signals, drone stops safely  
 
 
 
