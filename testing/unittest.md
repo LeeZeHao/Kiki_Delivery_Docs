@@ -28,7 +28,8 @@ As of Milestone 3, features successfully completed and tested are as follows:
 5. Can establish WebRTC connection to drone  
 6. Can send control signal via WebRTC data channel to drone  
 7. Can use URL arguments (email + access key) to authenticate user and verify access   
-8. While open, will continuously decrease available usage time of user in Firebase Firestore    
+8. While open, will continuously decrease available usage time of user in Firebase Firestore  
+9. If available usage time is depleted, disconnects user from drone  
 
 ##### Drone side web app  
 1. Can use the mic and camera of the drone  
@@ -41,8 +42,12 @@ As of Milestone 3, features successfully completed and tested are as follows:
 ##### Drone side Python script  
 1. Can establish WebSocket server for Drone side web app to connect to  
 2. Can receive control signals via WebSocket  
-3. Can control wheel motors via drivers through GPIO library reliably  
-4. Can use control signals to drive wheel motors (via system in point 3)  
+3. Can control wheel motors via drivers through GPIO library reliably
+4. Can control both camera rotation servos through GPIO library reliably
+5. Can control scissor lift motor via drivers through GPIO library reliably  
+6. Can use control signals to drive wheel motors (via system in point 3)   
+7. Can use control signals to rotate camera in two axis (via system in point 4)  
+8. Can use control signals to rotate scissor lift motor both directions (for lift raising and lowering) (via system in point 5)  
 
 
 
