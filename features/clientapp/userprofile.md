@@ -30,11 +30,12 @@ First time users are asked to choose a username.
   
 Users can view their current account information, and change their username in the profile page.  
   
+
 <p align="center">
-<img src="https://github.com/user-attachments/assets/0450fa45-72bc-4b2a-96dd-bf64d7fbd4cc" border="10"/>  
+<img src="https://github.com/user-attachments/assets/d0e10f7a-4bcf-4317-8243-5ec139934e90" border="10"/>  
 </p>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c6db78c2-cfdd-434c-8b84-80d798d00166" border="10" width="300"/>  
+<img src="https://github.com/user-attachments/assets/ddc61a8f-b20a-49bf-8d63-1ff825d775b0" border="10" width="300"/>  
 </p>
 <p align="center">
 Confirmation screens shown after user registration.
