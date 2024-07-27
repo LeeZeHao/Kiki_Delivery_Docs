@@ -27,14 +27,14 @@ Mobile login screen.
 </p>
   
 <p align="center">
-<img src="https://github.com/user-attachments/assets/f18f76f2-40c7-4202-81f4-b7f1e7776aef" border="10"/>  
+<img src="https://github.com/user-attachments/assets/d18649ba-cd68-405a-ad87-d83d42ac5e67" border="10"/>  
 </p>
 <p align="center">
 Desktop new user regsiter screen.  
 </p>  
   
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6" border="10"  width="300"/>  
+<img src="https://github.com/user-attachments/assets/46098177-8ad6-4b87-8744-4df5f440d3b3" border="10"  width="300"/>  
 </p>
 <p align="center">
 Mobile new user regsiter screen.  
