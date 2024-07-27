@@ -27,10 +27,10 @@ Gan Ren Yick
 # Level of Achievement
 Apollo 11 (proposed Artemis)  
   
-# Milestone 2 Public Testing
+# Milestone 3 Public Testing
 There will be a limited time public testing for the project.  
 Due to the project’s reliance on physical hardware, testing slots are limited.   
-For more information, please contact @zehaolee or @Neng_1 on Telegram before 7 July.
+For more information, please contact @zehaolee or @Neng_1 on Telegram before 5 August 2024.
   
   
 # Motivation
