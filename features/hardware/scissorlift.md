@@ -1,7 +1,8 @@
 ---
 title: Scissor Lift
 layout: home
-parent: Features
+parent: Hardware
+grand_parent: Features
 ---
 # Scissor Lift
 
