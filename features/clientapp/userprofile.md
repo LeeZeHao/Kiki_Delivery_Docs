@@ -38,7 +38,7 @@ Users can view their current account information, and change their username in t
 <img src="https://github.com/user-attachments/assets/ddc61a8f-b20a-49bf-8d63-1ff825d775b0" border="10" width="300"/>  
 </p>
 <p align="center">
-Confirmation screens shown after user registration.
+Web and Android profile pages.
 </p>  
 
 ----
