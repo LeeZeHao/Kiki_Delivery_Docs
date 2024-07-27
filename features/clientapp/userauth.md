@@ -52,14 +52,15 @@ An email verification system is in effect. Only users which have clicked on the 
 <p align="center">
 Confirmation screens shown after user registration.
 </p>  
-  
+
+### Password Reset
 Password resets are also implemented with Firebase Authentication. Users can apply for a password reset link to be sent to their registered email, which they can then use to reset their password.  
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/19e668a9-ff52-42bc-991b-b60ee8555235" border="10"/>  
+<img src="https://github.com/user-attachments/assets/0450fa45-72bc-4b2a-96dd-bf64d7fbd4cc" border="10" width="500"/>  
 </p>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ba3a200e-7e1f-49b4-b60f-3f03416f3fe7" border="10" width="300"/>  
+<img src="https://github.com/user-attachments/assets/f0c40748-2edb-4766-bd70-2473dced0d17" border="10" width="300"/>  
 </p>
 <p align="center">
 Confirmation screens shown after user registration.
