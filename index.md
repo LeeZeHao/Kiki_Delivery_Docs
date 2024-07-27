@@ -6,9 +6,9 @@ nav_order: 1
 
 # Introduction
 This is the documentation for Kiki's Delivery project (part of Orbital 2024).  
-
+  
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/490f6df9-a6b4-4745-8d74-641d2dd7f30b" border="10"/>  
+<img src="https://github.com/user-attachments/assets/bd7bf045-a402-40a0-a17a-096ea8285c5f" border="10"/>  
 </p>
 <p align="center">
 <img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
