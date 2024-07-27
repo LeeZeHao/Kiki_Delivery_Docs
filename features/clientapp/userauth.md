@@ -47,14 +47,23 @@ An email verification system is in effect. Only users which have clicked on the 
 <img src="https://github.com/user-attachments/assets/19e668a9-ff52-42bc-991b-b60ee8555235" border="10"/>  
 </p>
 <p align="center">
-<img src="https://github.com/user-attachments/assets/ba3a200e-7e1f-49b4-b60f-3f03416f3fe7" border="10"/>  
+<img src="https://github.com/user-attachments/assets/ba3a200e-7e1f-49b4-b60f-3f03416f3fe7" border="10" width="300"/>  
 </p>
 <p align="center">
 Confirmation screens shown after user registration.
 </p>  
-
   
 Password resets are also implemented with Firebase Authentication. Users can apply for a password reset link to be sent to their registered email, which they can then use to reset their password.  
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/19e668a9-ff52-42bc-991b-b60ee8555235" border="10"/>  
+</p>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ba3a200e-7e1f-49b4-b60f-3f03416f3fe7" border="10" width="300"/>  
+</p>
+<p align="center">
+Confirmation screens shown after user registration.
+</p>  
   
 User data, including email, username, and drone usage time (discussed below), is stored via Firebase Firestore database. On first login, users are prompted to choose a username. This data is stored in this system. Any purchase or decrease in drone usage time is also saved in this way.  
   
