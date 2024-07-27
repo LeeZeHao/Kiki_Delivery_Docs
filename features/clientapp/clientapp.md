@@ -16,7 +16,7 @@ Several other plugins are also in use to achieve various functionality, such as 
 
 Various features under the client app are listed in seperate sections accessible via the sidebar.
   
-#### Support for Both Web + Android Platforms
+### Support for Both Web + Android Platforms
 
 The application is currently confirmed to work on Web and Android platforms. Both versions of the application currently support the same features.  
 
