@@ -7,25 +7,39 @@ grand_parent: Features
 # User Authentication and Profile
 
 Users are able to create an account and login to the client side application. Currently, user authentication is implemented via Firebase Authentication, while user data is stored using Firebase Firestore database.
+
+User authentication is based on the simple email + password system.  
+
+The login and register screens are shown below.  
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/f18f76f2-40c7-4202-81f4-b7f1e7776aef" border="10"/>  
+</p>
+<p align="center">
+Desktop login screen.  
+</p>  
   
-Users can use their email to create an account. 
-
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/3d911dd0-ed83-4ccb-9375-97b6827cbe04" border="10"/>  
+<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6" border="10"  width="300"/>  
 </p>
 <p align="center">
-Current Mobile Login and Register Screens
+Mobile login screen.  
 </p>
-
+  
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/cb6e28e7-cb3d-4416-aa8c-fd1eb67050fe" border="10"/>  
-</p>
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/98393732-5840-4021-8cba-5c3f85478d38" border="10"/>  
+<img src="https://github.com/user-attachments/assets/f18f76f2-40c7-4202-81f4-b7f1e7776aef" border="10"/>  
 </p>
 <p align="center">
-Current Web Login and Register Screens  
+Desktop new user regsiter screen.  
+</p>  
+  
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6" border="10"  width="300"/>  
 </p>
+<p align="center">
+Mobile new user regsiter screen.  
+</p>
+  
   
 An email verification system is in effect. Only users which have clicked on the verification link sent to their email will be allowed to access the app’s features. This feature is implemented via a email template in Firebase Authentication.  
   
