@@ -6,7 +6,7 @@ parent: Features
 ---
 # Hardware
 
-The physical components of the drone.  
+The physical features of the drone.  
 
 <p align="center">
 <img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
