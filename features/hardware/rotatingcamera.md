@@ -1,7 +1,8 @@
 ---
 title: Rotating Camera Mount
 layout: home
-parent: Features
+parent: Hardware
+grand_parent: Features
 ---
 # Rotating Camera Mount
 
