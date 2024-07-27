@@ -40,8 +40,19 @@ Desktop new user regsiter screen.
 Mobile new user regsiter screen.  
 </p>
   
-  
-An email verification system is in effect. Only users which have clicked on the verification link sent to their email will be allowed to access the app’s features. This feature is implemented via a email template in Firebase Authentication.  
+### Email Verification
+An email verification system is in effect. Only users which have clicked on the verification link sent to their email will be allowed to access the app’s features. This feature is implemented via a customized email template in Firebase Authentication.  
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/19e668a9-ff52-42bc-991b-b60ee8555235" border="10"/>  
+</p>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/ba3a200e-7e1f-49b4-b60f-3f03416f3fe7" border="10"/>  
+</p>
+<p align="center">
+Confirmation screens shown after user registration.
+</p>  
+
   
 Password resets are also implemented with Firebase Authentication. Users can apply for a password reset link to be sent to their registered email, which they can then use to reset their password.  
   
