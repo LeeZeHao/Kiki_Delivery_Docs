@@ -24,15 +24,16 @@ Web support is achieved via the React Native Web plugin. This has allowed us to 
 
 In order to improve user experience, we have also added seperate UI layouts for Web and Android since the last milestone. This is achieved by detecting the user's platform, and exporting the respective React Native component. As an example, below is the new login screen layout for Web and Android respectively.
 
+  
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
+<img src="https://github.com/user-attachments/assets/f18f76f2-40c7-4202-81f4-b7f1e7776aef" border="10"/>  
 </p>
 <p align="center">
 Desktop login.  
 </p>  
   
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
+<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6" border="10"/>  
 </p>
 <p align="center">
 Mobile login.  
