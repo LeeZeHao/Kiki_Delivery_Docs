@@ -13,11 +13,30 @@ The application is available on Web and Android platforms.
 Currently, the client-side application is implemented via React Native, with web support achieved via the React Native Web plugin.  
   
 Several other plugins are also in use to achieve various functionality, such as React Navigation for navigating between different screens of the app, and the Firebase plugin for Firebase functions.  
-  
-Both the web and android version of the application currently support the same features.  
-  
-The application is currently confirmed to work on Web and Android platforms.  
 
+Various features under the client app are listed in seperate sections accessible via the sidebar.
+  
+##### Support for Both Web + Android Platforms
+
+The application is currently confirmed to work on Web and Android platforms. Both versions of the application currently support the same features.  
+
+Web support is achieved via the React Native Web plugin. This has allowed us to build both versions of the software using the same codebase.  
+
+In order to improve user experience, we have also added seperate UI layouts for Web and Android since the last milestone. This is achieved by detecting the user's platform, and exporting the respective React Native component. As an example, below is the new login screen layout for Web and Android respectively.
+
+<p align="center">
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
+</p>
+<p align="center">
+Desktop login.  
+</p>  
+  
+<p align="center">
+<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
+</p>
+<p align="center">
+Mobile login.  
+</p>
 
 
 ----
