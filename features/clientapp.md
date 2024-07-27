@@ -33,7 +33,7 @@ Desktop login.
 </p>  
   
 <p align="center">
-<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6=500x1000" border="10"/>  
+<img src="https://github.com/user-attachments/assets/7af897ee-5fdc-4f4f-9b4f-1fb935851bb6=500x1000" border="10"  width="400"/>  
 </p>
 <p align="center">
 Mobile login.  
