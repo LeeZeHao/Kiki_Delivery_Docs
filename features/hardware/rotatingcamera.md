@@ -32,7 +32,7 @@ The user can control the camera via the right joystick (lower right corner of sc
 <img src="https://github.com/user-attachments/assets/24aa5293-2328-4e97-b0d2-59e99e271049" border="10"/>  
 </p>
 <p align="center">
-3D model of the camera mount in Fusion 360.  
+Current build of the camera mount.    
 </p>
 
 
