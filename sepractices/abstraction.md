@@ -20,15 +20,19 @@ This is a hybrid hardware/software project with significant complexity. Due to b
 Software system overview
 </p>
 
-These different programs operate separately and only communicate between each other when needed. For instance, the client app links to a URL where the drone control interface is hosted, and the drone end WebRTC control app communicates with the Python script using WebSocket.  
-  
-This ensures that:  
-1. The different programs can be easily split up to be developed and maintained by different people.  
-2. The scope of each separate program is manageable and less complex, speeding up development.  
-3. It is much easier to pinpoint any errors that occur.
-  
-Aside from that, there are also examples of modularization within each of the separate programs. For instance, each screen in React Native is largely self contained.
+It is important to note that all of the information in each software is 'hidden' from the others unless intentionally exposed. The only sections where information is exposed or transferred are:
+1. Client app redirecting to drone control interface URL, with user email and access key obtained from Firebase Firestore as URL arguments
+2. User drone control interface connecting via WebRTC (video and audio channel + data channel) to drone side web app
+3. Python control script starting a WebSocket server to receive control signals from drone side web app
+4. Drone side web app interacting with the WebSocket server to send control signals to Python control script.
 
+This approach brings the following benefits:
+1. Easier maintenance
+2. Modularity (as seen in "Modularization" section)
+3. Managing complexity, as large features can now be broken up into smaller sections to work on
+4. Facilitating cooperation, as different members can work on different sections without worrying about clashes
+
+In addition, abstraction is used in structuring the individual programs as well, in accordance with proper OOP principles.
 
 ----
 
