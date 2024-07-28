@@ -22,20 +22,12 @@ The time required to charge the battery from empty is approximately 8 hours.
 
 While we recognize that better battery technology options exist, these specifications are sufficient for this stage of development and testing.
 
-  
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/dd233bf2-e2da-43f3-8d02-1321b5165832" border="10"/>  
-</p>
-<p align="center">
-Current build of the drone. The battery (blue block) is visible. We have not yet designed a proper mount for the battery, but it is working in this state.
-</p>
-
 
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/cf489534-8fde-4b62-b2b5-ea556ac219c0" border="10"/>
+<img src="https://github.com/user-attachments/assets/f4064a04-5703-43ba-b52e-80e2ff1065a2" border="10"/>  
 </p>
 <p align="center">
-Future planned arrangement of drone internals. Battery is fit in the middle, while Raspberry Pi 5 is fit at the front for optimal cooling.
+Current version of the drone. The battery (blue block) is visible in the bottom part of the frame, in its mount.  
 </p>
 
 ----
