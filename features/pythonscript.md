@@ -9,7 +9,7 @@ The Python control script is run locally on the Raspberry Pi 5. It mainly serves
 
 It uses libraries such as GPIOD and Thread. It uses these libraries to direct signals sent from GPIO pins on the Raspberry Pi, which in turn control the electronic hardware.  
 
-The Python “Thread” library is used to execute the PWM control signal of the motor driver (software PWM), such that it will not be interrupted by the main thread. Sleep function imported from the “time” library is used to generate the pulse width.   
+The Python “Thread” library is used to execute the PWM control signal of the motor drivers and servos (software PWM), such that it will not be interrupted by the main thread. Sleep function imported from the “time” library is used to generate the pulse width.   
 
 
 ### WebSocket Server
@@ -18,7 +18,7 @@ The Python script starts and maintains a WebSocket server to be used locally. Th
 
 ### Hardware
 
-Each component of the drone (Locomotion motors, scissor lift, camera rotation servos, etc) is seperated into its own class.  
+In accordance with basic OOP principles, each component of the drone (Locomotion motors, scissor lift, camera rotation servos, etc) is seperated into its own class.  
 
 ----
 
