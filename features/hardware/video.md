@@ -10,15 +10,14 @@ Microphone and camera hardware is installed so that the drone can record video a
   
 A USB webcam (with integrated mic) provide video and audio recording capability. Both of these functions work as expected. The field of view is greatly increased from the last version, significantly improving the experience of the user controlling the drone.  
   
-A USB speaker is also available for playing audio from the user. Along with the microphone, the system in its current state can thus provide two-way audio communication.
+A USB speaker is also available for playing audio from the user. Along with the microphone, the system in its current state can thus provide two-way audio communication.  
 
-
-  
+ 
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/f1784904-58b1-4ad8-8773-73e93c64f724" border="10"/>  
+<img src="https://github.com/user-attachments/assets/9751ad9d-f883-4901-8cf3-93978d12d258" border="10"/>  
 </p>
 <p align="center">
-Current build of the drone. The webcam is in its enclosure (white, 3D printed) at the front. The microphone (black) is to the left of the webcam.
+The drone's webcam (with integrated mic) mount. Contains servo motors for two-axis rotation (see "Rotating Camera Mount" feature)
 </p>
 
 
