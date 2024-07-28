@@ -1,7 +1,6 @@
 ---
 title: Python Control Script
 layout: home
-has_children: true
 parent: Features
 ---
 # Python Control Script
