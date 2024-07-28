@@ -14,6 +14,14 @@ The lift is a simple scissor lift system. It is powered by a screw thread driven
   
 The user is able to control the extension of the lift via action buttons on the right side of the client drone control interface.  
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/9e8446b9-174b-4116-af0a-4b95dafaff64" border="10"/>  
+</p>
+<p align="center">
+Current build of the scissor lift. The motor is located in the bottom half of the robot frame.  
+</p>
+
+
 ----
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
