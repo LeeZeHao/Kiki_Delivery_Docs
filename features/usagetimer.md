@@ -22,7 +22,7 @@ The drone control interface can obtain the user using the drone using the access
 The drone usage time will only start to be decreased after the user has successfully connected to a drone. After that, it will continually decrease and display the amount of drone usage time remaining for the user. However, the usage data stored in Firestore is not continually updated, but only at set intervals. This is to prevent an overload on network traffic. During testing, this interval was set to 5 minutes to avoid excess Firebase access usage, but this will be adjusted to a lower value for production.  
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/5c39a477-b422-45d0-b4a8-775073e9bf40" border="10" width="200"/>  
+<img src="https://github.com/user-attachments/assets/5c39a477-b422-45d0-b4a8-775073e9bf40" border="10" width="400"/>  
 </p>
 <p align="center">
 Drone usage time is tracked while the drone is connected.
