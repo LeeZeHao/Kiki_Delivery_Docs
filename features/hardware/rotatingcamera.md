@@ -17,14 +17,23 @@ This is achieved via two servo motors, which rotate different parts of the camer
 3D model of the camera mount in Fusion 360.  
 </p>
   
-The Yaw Motor rotates the top part of the mount (along with the Pitch motor) side-to-side, providing yaw rotation for the camera view.  
-The Pitch motor rotates the camera up and down, providing pitch rotation for the camera view.  
-In total, this provides two degrees of freedom for the camera rotation system.  
+The Yaw Motor rotates the top part of the mount (along with the Pitch motor) side-to-side, providing yaw rotation for the camera view.   
+The Pitch motor rotates the camera up and down, providing pitch rotation for the camera view.   
+In total, this provides two degrees of freedom for the camera rotation system.   
   
-Both servo motors are connected to the GPIO pins on the Raspberry Pi 5. The Python script is able to control the motors by sending signals through this connection.
+Both servo motors are connected to the GPIO pins on the Raspberry Pi 5. The Python script is able to control the motors by sending signals through this connection.  
 
-The user can control the camera via the right joystick (lower right corner of screen) in the client side control interface.
-  
+The user can control the camera via the right joystick (lower right corner of screen) in the client side control interface.  
+
+<p align="center">
+<img src="https://github.com/user-attachments/assets/2573fc3f-3f18-43fe-aa63-a6b1a400a892" border="10"/>  
+</p>
+<p align="center">
+<img src="https://github.com/user-attachments/assets/24aa5293-2328-4e97-b0d2-59e99e271049" border="10"/>  
+</p>
+<p align="center">
+3D model of the camera mount in Fusion 360.  
+</p>
 
 
 ----
