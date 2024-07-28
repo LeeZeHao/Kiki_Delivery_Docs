@@ -13,7 +13,7 @@ Various types of testing which were performed are listed in the following sectio
 
 NOTE: As we seek to support both platforms, all testing which involves the client app has been performed using both Web and Android devices.
 
-
+For a demonstration of project functions, and as evidence for the features claimed in this project report, please view [our project demonstration video](https://drive.google.com/file/d/1SrZAOFS4UVso9llRsQO-MwBCX9BwoOfr/view?usp=sharing).
 
 
 ----
