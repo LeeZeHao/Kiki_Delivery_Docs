@@ -17,9 +17,15 @@ A USB speaker is also available for playing audio from the user. Along with the 
 <img src="https://github.com/user-attachments/assets/9751ad9d-f883-4901-8cf3-93978d12d258" border="10"/>  
 </p>
 <p align="center">
-The drone's webcam (with integrated mic) mount. Contains servo motors for two-axis rotation (see "Rotating Camera Mount" feature)
+The drone's webcam (with integrated mic) mount. Contains servo motors for two-axis rotation. (see "Rotating Camera Mount" feature)  
 </p>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/c2eb9ce4-103a-40a0-a277-52ec5d955935" border="10"/>  
+</p>
+<p align="center">
+The drone's speaker, mounted at the top front part of the drone.  
+</p>
 
 ----
 
