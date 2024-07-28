@@ -17,22 +17,24 @@ This is a hybrid hardware/software project with significant complexity. Due to b
 <img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/502c45e0-ce7e-45ae-8e37-b70388dacec5" border="10"/>  
 </p>
 <p align="center">
-Software system overview
+Software system overview  
 </p>
 
-It is important to note that all of the information in each software is 'hidden' from the others unless intentionally exposed. The only sections where information is exposed or transferred are:
-1. Client app redirecting to drone control interface URL, with user email and access key obtained from Firebase Firestore as URL arguments
-2. User drone control interface connecting via WebRTC (video and audio channel + data channel) to drone side web app
-3. Python control script starting a WebSocket server to receive control signals from drone side web app
-4. Drone side web app interacting with the WebSocket server to send control signals to Python control script.
+It is important to note that all of the information in each software is 'hidden' from the others unless intentionally exposed. The only sections where information is exposed or transferred are:  
+1. Client app redirecting to drone control interface URL, with user email and access key obtained from Firebase Firestore as URL arguments  
+2. User drone control interface connecting via WebRTC (video and audio channel + data channel) to drone side web app  
+3. Python control script starting a WebSocket server to receive control signals from drone side web app  
+4. Drone side web app interacting with the WebSocket server to send control signals to Python control script  
 
-This approach brings the following benefits:
-1. Easier maintenance
-2. Modularity (as seen in "Modularization" section)
-3. Managing complexity, as large features can now be broken up into smaller sections to work on
-4. Facilitating cooperation, as different members can work on different sections without worrying about clashes
+This approach brings the following benefits:  
+1. Easier maintenance  
+2. Modularity (as seen in "Modularization" section)  
+3. Managing complexity, as large features can now be broken up into smaller sections to work on  
+4. Facilitating cooperation, as different members can work on different sections without worrying about clashes  
 
-In addition, abstraction is used in structuring the individual programs as well, in accordance with proper OOP principles.
+
+
+In addition, abstraction principle is used in structuring the individual programs, in accordance with proper OOP principles.
 
 ----
 
