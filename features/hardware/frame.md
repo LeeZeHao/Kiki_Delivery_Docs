@@ -49,7 +49,7 @@ There is also a box compartment in the middle, which provides some carrying capa
 <img src="https://github.com/user-attachments/assets/a3f35ea1-09ab-449f-8108-c26782c36bab" border="10"/>  
 </p>
 <p align="center">
-The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
+Top half of the drone. Note the camera mounted high at the back.
 </p>
 
 
