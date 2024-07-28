@@ -18,6 +18,9 @@ The user is able to control the extension of the lift via action buttons on the 
 <img src="https://github.com/user-attachments/assets/9e8446b9-174b-4116-af0a-4b95dafaff64" border="10"/>  
 </p>
 <p align="center">
+<img src="https://github.com/user-attachments/assets/04ebd6fe-9ffd-4b91-ad5b-80384cb90fb6" border="10"/>  
+</p>
+<p align="center">
 Current build of the scissor lift. The motor is located in the bottom half of the robot frame.  
 </p>
 
