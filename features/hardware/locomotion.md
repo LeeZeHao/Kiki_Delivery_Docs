@@ -13,9 +13,10 @@ Thus, a set of actuators that facilitate easy implementation of ground-based mov
 Currently, the drone uses a 4-wheeled chassis, where each wheel is powered by a 12V DC motor. The system is controlled by the Raspberry Pi 5 controller via two l298n motor drivers (one per each side).  
   
 This system has proven to be easy to implement, and has shown good mobility during testing.   
+
   
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/bf524941-cab8-484b-b8ac-9a7a4ed6ec83" border="10"/>
+<img src="https://github.com/user-attachments/assets/1118df5e-ab2b-4775-adac-2245ac376df0" border="10"/>
 The chassis of the drone taken apart during development. The 4 DC motors (yellow) and the motor drivers (red) are visible.
 </p>
 
