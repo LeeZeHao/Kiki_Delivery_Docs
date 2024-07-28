@@ -1,42 +1,18 @@
 ---
-title: Client Control Interface
+title: Python Control Script
 layout: home
 has_children: true
 parent: Features
 ---
-# Client Control Interface
+# Python Control Script
 
-The control page is the user interface for connecting to the robot and controlling it.  
+The Python control script(s) are run locally on the Raspberry Pi 5. It mainly serves to retrieve control signals from the drone side WebRTC web app, and translate them into GPIO pin outputs for the drone hardware.  
 
-### Automatic Authentication / Access Control
-  
-When the user is redirected from the client app, it passes the user email and an access key (obtained from Firestore) to the control interface via URL arguments.  
+### WebSocket Server
 
-Once it is opened, users will see this screen.
+The Python script 
 
-<p align="center">
-<img src="https://github.com/user-attachments/assets/c0567c48-b978-433a-891f-3733b2b6869c" border="10"/>  
-</p>
-<p align="center">
-The control interface on startup.
-</p>
-
-At this stage, the control interface is not yet connected to the drone. The user cannot control the drone, and the user's drone usage time will not decrease. Users must use the "Connect to Drone" button (green) to start a connection.
-  
-When the user tries to connect to a drone, authentication of the user is done by using a Firestore query (to the "user_data" collection) to search registered users by the provided email to verify that the user exists + get the user id of the user. The provided access key is also checked against the key in Firestore (under "access_code" collection). The access key changes each time it is queried, so the user cannot enter it into the URL themselves. If this step fails, the user cannot connect to a drone.   
-  
-This system ensures the control interface can only be opened from the client app and not through other methods (for instance, the user typing the URL into a browser themselves). This system is such that users can be identified easily, and that they cannot exploit possible loopholes (for example, opening the control interface while passing others' email as an argument).  
-   
-A more detailed, step-by-step explanation of this system is provided in the [Access Control System](https://leezehao.github.io/Kiki_Delivery_Docs/features/accesscontrol.html) feature page.  
-  
-### Main Control Interface
-
-After connecting to the drone, users will begin receiving audio and video feed from the drone. The user's audio feed will also be sent to the drone.  
-
-The functions users can perform are listed below:
-
-##### Two-way Audio Communication
-
+### 
 
 Users in the control page can  
 - Observe the drone’s camera view in middle of screen  
