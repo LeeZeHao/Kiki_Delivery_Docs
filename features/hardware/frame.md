@@ -12,12 +12,20 @@ It is made of custom 3D printed parts and an acrylic plate bottom chassis. The 3
   
 The frame can be divided roughly into two sections: the top frame and the bottom frame. There is a scissor lift between the top and bottom part, allowing for the top half to be lifted. (see: Features -> Scissor Lift section)  
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7095eb7a-929e-4071-8367-a1ac738fec73" border="10"/>  
+</p>
+<p align="center">
+The drone with the scissor lift extended. Note the distinct top and bottom half of the frame.
+</p>
+
 ### Bottom Part
 
 The bottom part consists of a 3D printed frame on top of an acrylic chassis.  
   
+  
 <p align="center">
-<img src="https://github.com/user-attachments/assets/d49dd713-1bca-49e8-a1be-1efb769ad2d6" border="10"/>  
+<img src="https://github.com/user-attachments/assets/1118df5e-ab2b-4775-adac-2245ac376df0" border="10"/>  
 </p>
 <p align="center">
 The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
@@ -37,7 +45,12 @@ The webcam (with integrated microphone) and the speaker are both mounted to the 
   
 There is also a box compartment in the middle, which provides some carrying capacity for the drone.  
 
-
+<p align="center">
+<img src="https://github.com/user-attachments/assets/a3f35ea1-09ab-449f-8108-c26782c36bab" border="10"/>  
+</p>
+<p align="center">
+The drone taken apart. The two acrylic plates of the chassis (brown) are visible.
+</p>
 
 
 ----
