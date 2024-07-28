@@ -37,6 +37,8 @@ A short video demonstrating the project's capabilities, and briefly explaining c
 
 The video is edited using DaVinci Resolve.  
 
+The video can be viewed via this [Google Drive link](https://drive.google.com/file/d/1SrZAOFS4UVso9llRsQO-MwBCX9BwoOfr/view?usp=sharing).
+
 ### Project Poster
 
 An A1 sized vertical poster. It serves as a short introduction to the project.  
