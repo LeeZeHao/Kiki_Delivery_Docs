@@ -9,10 +9,10 @@ parent: Features
 The physical features of the drone.  
 
 <p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/c2f61b30-4e17-48de-a977-1f0bf137aabe" border="10"/>  
+<img src="https://github.com/user-attachments/assets/85740762-4ca6-4db2-8165-90fdfb40aa61" border="10"/>  
 </p>
 <p align="center">
-The current state of the drone. It has a battery and is able to operate independently (not connected to an external power source or computer). Note the microphone and camera.
+The current build of the drone. It has a battery and is able to operate independently (not connected to an external power source or computer). Note the camera mount and front-mounted speaker.
 </p>
 
 ----
