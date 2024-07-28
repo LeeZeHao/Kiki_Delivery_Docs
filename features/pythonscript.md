@@ -9,7 +9,9 @@ The Python control script(s) are run locally on the Raspberry Pi 5. It mainly se
 
 ### WebSocket Server
 
-The Python script 
+The Python script starts and maintains a WebSocket server to be used locally. This is used by the drone side web app. After receiving control signals via WebRTC, it passes on the signals to the Python control script via this server.
+
+### Hardware
 
 ### 
 
