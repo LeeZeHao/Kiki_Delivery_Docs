@@ -9,13 +9,9 @@ A Raspberry Pi 5 is used as the controller / microcomputer for the drone. It han
   
 The drone is a ground-based drone. By making use of the GPIO (general purpose input/output) pins on the Raspberry Pi, the drone can be expanded upon easily with different hardware to offer different features for various types of customers.  
   
-The hardware of the drone is controlled by a python script, which uses libraries such as GPIOD and Thread.  
-  
-The Python “GPIOD” library is used to interact with the GPIO pins on the Raspberry Pi, which in turn drive the hardware.  
+The hardware of the drone is controlled by a python script, which uses libraries such as GPIOD and Thread. It is used to interact with the GPIO pins on the Raspberry Pi, which in turn drive the hardware.  
   
 Our prototype test drone is currently a small 4-wheeled drone with motors connected to each wheel. An L298n DC motor driver is used to control the 4 motors. 6 GPIO pins are connected to the motor driver, where the left and right side motor groups are each controlled by 3 pins. Of these 3 pins, 2 pins control the direction of the motors, and 1 pin outputs a pulse width modulation (PWM, used for simulating analog voltage) signal to control the speed of the motor.  
-  
-The Python “Thread” library is used to execute the PWM control signal of the motor driver. such that it will not be interrupted by the main thread. Sleep function imported from the “time” library is used to generate the pulse width.  
   
 
 
