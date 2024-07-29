@@ -13,6 +13,18 @@ It uses libraries such as GPIOD and Thread, to direct signals sent from GPIO pin
 
 This script contains component classes responsible for various funcitons of the drone. When it is run, every instance of each component class is instantiated, and a while loop is used to update every component continuously.  
 
+Some examples of component classes are provided below:  
+
+##### Locomotion / Movement Control
+Each update, checks state of control signal. Updates the GPIO pins' value to control the motors direction. Generates PWM signal for speed control.  
+
+##### Scissor lift
+Each update, checks state of control signal. Output corresponding pin values to lift, lower or not move the lift.  
+
+##### Camera Rotation
+Each update, checks state of control signal. Output corresponding pin values and PWM signal to rotate the two servos to the correct position.  
+As the software PWM signal is unstable and causes some jitter, this contains a timed function that detects amount of time since last input, and cuts power to motors when no movement is needed.
+
 ### WebSocket Server
 
 The Python script starts and maintains a WebSocket server which is hosted locally (at port 8765). This is used by the drone side web app which receives control signals via WebRTC and passes them on to the Python control script via this server. The Python script listens to that local port to receive the control signals.
