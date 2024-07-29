@@ -33,38 +33,34 @@ A more detailed, step-by-step explanation of this system is provided in the [Acc
 
 After connecting to the drone, users will begin receiving audio and video feed from the drone. The user's audio feed will also be sent to the drone.  
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/7a0088a8-e8bf-4549-83ba-a835b5d6ebf6" border="10"/>  
+</p>
+<p align="center">
+The control interface after connecting to the drone.
+</p>
+
 The functions users can access are listed below:
 
+##### Drone Video Feed
+This is achieved via WebRTC video channel. The image from the drone webcam is displayed in the center of the control interface.
 ##### Two-way Audio Communication
+This is achieved via WebRTC audio channel. There is a speaker and a mic (integrated in the webcam) on the drone. Thus, users can directly communicate in this method.  
+##### Control Drone Locomotion
+Users can control the movement of the drone using a virtual joystick on the bottom left side of the screen, and two buttons on the right side of the screen (for pivot). Details about the implementation of drone controls are included below in the "Control Signals" section of the page.  
+##### Control Camera Rotation
+Users can control the rotation of the camera mount using a virtual joystick on the bottom right side of the screen.  
+##### Control Scissor Lift
+Users can control the raising and lowering of the lift using action buttons on the right side of the screen.  
+##### View Remaining Drone Usage Time
+Remaining drone usage time is always displayed on the left side of the screen, under the disconnect button.
+##### Disconnect from the Drone
+Users can click the green "Connected" button on the left side of the screen to disconnect. Remaining drone usage time will also stop being deducted.
 
+### Control Signals
 
-Users in the control page can  
-- Observe the drone’s camera view in middle of screen  
-- Input text to be sent and displayed on the drone  
-- Control the movement of drone using a virtual joystick on the bottom left side of the screen  
-- Disable their own microphone or camera  
-- View drone usage time left  
-- Control extra functions such as camera rotation and other actuators using action buttons on the bottom right side of the screen  
-- Disconnect the drone (This will also stop the consumption of drone usage time (detailed under “Drone usage timer system” section))
-  
-Currently, users in the control page can:  
-- Establish connection to the drone  
-- Observe their own camera view on top right corner  
-- Observe the drone’s camera view in middle of screen  
-- Input text to be sent and displayed on the drone  
-- Control the movement of drone using a virtual joystick on the screen  
+The drone control interface uses the WebRTC data channel to send control signals to the drone.  
 
-
-
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/3fbd7993-ba8d-474f-8040-68dbf090e067" border="10"/>  
-</p>
-<p align="center">
-<img src="https://github.com/LeeZeHao/Kiki_Delivery_Docs/assets/46279960/a92f2147-a370-44fb-9a36-0312cb745211" border="10"/>  
-</p>
-<p align="center">
-Planned user control interface
-</p>
 
 
 ----
