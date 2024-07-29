@@ -9,6 +9,8 @@ There will be a limited time public testing for the project.
 Due to the project’s reliance on physical hardware, testing slots are limited.   
 For more information, please contact @zehaolee or @Neng_1 on Telegram before 5 August 2024.  
 
+(NOTE: The [Client App](https://zehao-deploy-rn-web-app.dfdd2g2tqknko.amplifyapp.com/) can actually be accessed at any time. However, the portions related to drone control will only be functional during the public test, as the drone hardware cannot be ready 24-7.)
+
 # Introduction
 This is the documentation for Kiki's Delivery project (part of Orbital 2024).  
   
