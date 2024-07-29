@@ -10,7 +10,9 @@ We have decided to opt for ground-based movement rather than aerial drones as th
   
 Thus, a set of actuators that facilitate easy implementation of ground-based movement is installed.  
     
-Currently, the drone uses a 4-wheeled chassis, where each wheel is powered by a 12V DC motor. The system is controlled by the Raspberry Pi 5 controller via two l298n motor drivers (one per the two motors on each side). For each motor driver, 2 pins are used to control the motor current direction, while 1 pin is used to control the voltage of the motor via a custom software PWM signal. The current direction affects the spin direction of the motor, while the voltage affects its speed. Thus, adjustable direction and speed is achieved.
+Currently, the drone uses a 4-wheeled chassis, where each wheel is powered by a 12V DC motor. The system is controlled by the Raspberry Pi 5 controller via two l298n motor drivers (one per the two motors on each side). 
+
+For each motor driver, 2 pins are used to control the motor current direction, while 1 pin is used to control the voltage of the motor via a custom software PWM signal. The current direction affects the spin direction of the motor, while the voltage affects its speed. Thus, adjustable direction and speed is achieved.
   
 This system has proven to be easy to implement, and has shown good mobility during testing.   
 
