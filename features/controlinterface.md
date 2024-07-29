@@ -59,7 +59,31 @@ Users can click the green "Connected" button on the left side of the screen to d
 
 ### Control Signals
 
-The drone control interface uses the WebRTC data channel to send control signals to the drone.  
+The drone control interface uses the WebRTC data channel to send control signals to the drone.   
+
+Every frame, the status of the various input buttons and joysticks are packaged into a JSON file with the format below:  
+```
+const _droneControl = {
+    message:"none",
+    movement : {
+        x : 0,
+        y : 0
+    },
+    lift : {
+        up : false,
+        down : false
+    },
+    rot : {
+        left : false,
+        right : false
+    },
+    cam : {
+        x : 0,
+        y : 0
+    }
+}
+```
+This JSON object is then sent via the data channel to the drone side WebRTC web app. Then, it is passed to a python script, which translates it into electrical pin outputs for controlling the drone hardware.
 
 
 
