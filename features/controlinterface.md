@@ -10,12 +10,12 @@ The control page is the user interface for connecting to the robot and controlli
 
 ### Automatic Authentication / Access Control
   
-When the user is redirected from the client app, it passes the user email and an access key (obtained from Firestore) to the control interface via URL arguments.  
+When the user is redirected from the client app, it passes the user email and an access key (obtained from Firestore) to the control interface via URL arguments.   
 
-Once it is opened, users will see this screen.
+Once it is opened, users will see this screen.  
 
 <p align="center">
-<img src="https://github.com/user-attachments/assets/c0567c48-b978-433a-891f-3733b2b6869c" border="10"/>  
+<img src="https://github.com/user-attachments/assets/19b6d652-de63-42c0-ab86-3a29465d4854" border="10"/>  
 </p>
 <p align="center">
 The control interface on startup.
@@ -33,7 +33,7 @@ A more detailed, step-by-step explanation of this system is provided in the [Acc
 
 After connecting to the drone, users will begin receiving audio and video feed from the drone. The user's audio feed will also be sent to the drone.  
 
-The functions users can perform are listed below:
+The functions users can access are listed below:
 
 ##### Two-way Audio Communication
 
