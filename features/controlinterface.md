@@ -83,7 +83,7 @@ const _droneControl = {
     }
 }
 ```
-This JSON object is then sent via the data channel to the drone side WebRTC web app. Then, it is passed to a python script, which translates it into electrical pin outputs for controlling the drone hardware.
+This JSON object is then sent via the WebRTC data channel to the drone side WebRTC web app. Then, it is passed to a python script, which translates it into electrical pin outputs for controlling the drone hardware.
 
 
 
