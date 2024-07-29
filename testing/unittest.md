@@ -9,18 +9,21 @@ Unit testing was done during development in order to verify the functionality of
 
 As of Milestone 3, features successfully completed and tested are as follows:  
   
-##### Client App (All features work on both Web and Android platforms)
-1. Register with Firebase Authentication  
-2. Login with Firebase Authentication  
-3. Send password reset email with Firebase Authentication  
-4. Send verification email with Firebase Authentication  
-5. Cannot login without email verification  
-6. Create and store user data using Firebase Firestore  
-7. Retrieve data from Firebase Firestore for Home page  
-8. Change username in Firebase Firestore from Profile page   
-9. Open URL of Control page (with correct arguments taken from Firebase Firestore)  
+### Client App (All features work on both Web and Android platforms)
+1. Display different layout for Web and Android platforms
+2. Register with Firebase Authentication  
+3. Login with Firebase Authentication  
+4. Send password reset email with Firebase Authentication  
+5. Send verification email with Firebase Authentication  
+6. Cannot login without email verification  
+7. Create and store user data using Firebase Firestore  
+8. Retrieve data from Firebase Firestore for Home page  
+9. Change username in Firebase Firestore from Profile page   
+10. Open URL of Control page (with correct arguments taken from Firebase Firestore)
+##### Bugs found and fixed:
+1. 
   
-##### Control page  
+### Control page  
 1. Joysticks render correctly  
 2. User and drone camera view elements render correctly  
 3. Can request user mic and camera permissions  
@@ -30,17 +33,24 @@ As of Milestone 3, features successfully completed and tested are as follows:
 7. Can use URL arguments (email + access key) to authenticate user and verify access
 8. While open, will continuously update available usage time of user in the UI  
 9. While open, will decrease available usage time of user in Firebase Firestore at set intervals   
-10. If available usage time is depleted, disconnects user from drone  
+10. If available usage time is depleted, disconnects user from drone
+##### Bugs found and fixed:
+1. User can hear their own audio (audio feedback) - Fixed by muting the local audio stream  
+2. Scissor lift controls are reversed - Fixed by reversing them back to normal  
+3. User can change email address in URL to login as other people - Fixed by implementing current access key system  
+4. User is not disconnected even after available usage time is over - Added check for 0 usage time and auto disconnect   
 
-##### Drone side web app  
+### Drone side web app  
 1. Can use the mic and camera of the drone  
 2. Can log WebRTC connection information to Firebase Firestore (for Control page to use)  
 3. Can establish WebRTC connection to Control page  
 4. Can receive control signals from WebRTC data channel  
 5. Can connect to WebSocket established by (local) Python script  
 6. Can reliably relay control signals to Python script
+##### Bugs found and fixed:
+1. Transmission of control signals to Python script unreliable, many missed signals - Decreased individual signal size  
 
-##### Drone side Python script  
+### Drone side Python script  
 1. Can establish WebSocket server for Drone side web app to connect to  
 2. Can receive control signals via WebSocket  
 3. Can control wheel motors via drivers through GPIO library reliably
@@ -49,14 +59,20 @@ As of Milestone 3, features successfully completed and tested are as follows:
 6. Can use control signals to drive wheel motors (via system in point 3)   
 7. Can use control signals to rotate camera in two axis (via system in point 4)  
 8. Can use control signals to rotate scissor lift motor both directions (for lift raising and lowering) (via system in point 5)
+##### Bugs found and fixed:
+1. Software-based PWM signal provided is unstable, causing camera rotation servo to be jittery even when stopped - Fixed by cutting power to servos when stopped  
 
-##### Hardware 
+### Hardware 
 1. Power supply to Raspberry Pi 5 is reliable
 2. Wheel motors and drivers work
 3. Both camera rotation servos (pitch and yaw) work
 4. Scissor lift motor via drivers work
 5. Testing battery charge time from empty, averages to 7.6 hours. Approximately matches with advertised charging time of 8 hours.
 6. Testing battery life from full under normal usage, averages to 2.4 hours.
+##### Bugs found and fixed:
+1. Right side wheel motors not getting power - Fixed by using two motor drivers (one per side), instead of only one  
+2. Camera rotation servo is jittery even when stopped - Fixed by cutting power when stopped via software  
+3. Scissor lift screw shaft breaks often - Fixed by using stronger design and lubrication  
 
 
 
