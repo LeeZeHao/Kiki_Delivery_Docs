@@ -1,10 +1,10 @@
 ---
-title: 3D Printed Components
+title: Custom Designed Components
 layout: home
 parent: Hardware
 grand_parent: Features
 ---
-# 3D Printed Components
+# Custom Designed Components
 
 Large parts of the frame, scissor lift, camera mount were designed as digital 3D models and produced using 3D printers.
 
