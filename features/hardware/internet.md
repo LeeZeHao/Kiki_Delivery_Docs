@@ -19,6 +19,13 @@ During testing, it has proven sufficient for smooth operation and video / audio 
 SIM7600 Raspberry Pi HAT module.
 </p>
 
+<p align="center">
+<img src="https://github.com/user-attachments/assets/89c95dfb-b372-433b-a022-69d2d69239bc" border="10"/>  
+</p>
+<p align="center">
+Note the antenna sticking out the rear of the drone.
+</p>
+
 ----
 
 [Just the Docs]: https://just-the-docs.github.io/just-the-docs/
