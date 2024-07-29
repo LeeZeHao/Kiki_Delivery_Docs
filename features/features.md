@@ -6,9 +6,11 @@ has_children: true
 ---
 
 # Features
-The following is a detailed description of currently implemented features in this project. \
- \
-In this documentation, features are split into several sections. Viewers can use the sidebar to navigate them more easily.
+The following is a detailed description of currently implemented features in this project.  
+
+In this documentation, features are split into several sections. Viewers can use the sidebar to navigate them more easily.  
+
+For a demonstration of the features, check out our [Project Demonstration Video](https://drive.google.com/file/d/1SrZAOFS4UVso9llRsQO-MwBCX9BwoOfr/view?usp=sharing).
 
 ----
 
