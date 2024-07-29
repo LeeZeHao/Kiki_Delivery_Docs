@@ -21,7 +21,7 @@ The Yaw Motor rotates the top part of the mount (along with the Pitch motor) sid
 The Pitch motor rotates the camera up and down, providing pitch rotation for the camera view.   
 In total, this provides two degrees of freedom for the camera rotation system.   
   
-Both servo motors are connected to the GPIO pins on the Raspberry Pi 5. The Python script is able to control the motors by sending signals through this connection.  
+Both servo motors are connected to the GPIO pins on the Raspberry Pi 5. The Python script is able to control the motors by sending signals through this connection. The servos are controlled using AngularServo class from gpiozero, via a software generated PWM (Pulse Width Modulation) signal. As this method of PWM is slightly unstable and causes some jittering, a timer system is implemented to cut power to the servo each time after updating the servo to the correct position.
 
 The user can control the camera via the right joystick (lower right corner of screen) in the client side control interface.  
 
