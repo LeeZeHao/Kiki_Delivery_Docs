@@ -13,8 +13,8 @@ For more information, please contact @zehaolee or @Neng_1 on Telegram before 5 A
 
 # Introduction
 This is the documentation for Kiki's Delivery project (part of Orbital 2024).  
-Link to the [project GitHub repository](https://github.com/ItsMeNengYi/Kiki_Delivery)
-Link to the [documentation GitHub repository](https://github.com/LeeZeHao/Kiki_Delivery_Docs)
+Link to the [project GitHub repository](https://github.com/ItsMeNengYi/Kiki_Delivery)  
+Link to the [documentation GitHub repository](https://github.com/LeeZeHao/Kiki_Delivery_Docs)  
   
 <p align="center">
 <img src="https://github.com/user-attachments/assets/bd7bf045-a402-40a0-a17a-096ea8285c5f" border="10"/>  
