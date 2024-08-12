@@ -10,7 +10,7 @@ The following is a detailed description of currently implemented features in thi
 
 In this documentation, features are split into several sections. Viewers can use the sidebar to navigate them more easily.  
 
-For a demonstration of the features, please check out our [Project Demonstration Video](https://drive.google.com/file/d/1SrZAOFS4UVso9llRsQO-MwBCX9BwoOfr/view?usp=sharing).
+For a demonstration of the features, please check out our [Project Demonstration Video](https://drive.google.com/file/d/1AA8hcPEHy1BFPZqKXotlP5D0RDkyJ07f/view?usp=sharing).
 
 ----
 
