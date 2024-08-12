@@ -37,7 +37,7 @@ A short video demonstrating the project's capabilities, and briefly explaining c
 
 The video is edited using DaVinci Resolve.  
 
-The video can be viewed via this [Google Drive link](https://drive.google.com/file/d/1SrZAOFS4UVso9llRsQO-MwBCX9BwoOfr/view?usp=sharing).
+The video can be viewed via this [Google Drive link](https://drive.google.com/file/d/1AA8hcPEHy1BFPZqKXotlP5D0RDkyJ07f/view?usp=drive_link).
 
 ### Project Poster
 
@@ -45,7 +45,8 @@ An A1 sized vertical poster. It serves as a short introduction to the project.
 
 The latest project poster is shown below.  
 
-![ms3poster](https://github.com/user-attachments/assets/634104de-b017-458b-aa4d-32766d4df9e7)
+![6443](https://github.com/user-attachments/assets/0d08f5e7-694a-48d7-abcc-a7b07d7ac316)
+
 
 
 
